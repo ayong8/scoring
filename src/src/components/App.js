@@ -4,6 +4,7 @@ import ThirtyMinutes from './ThirtyMinutes';
 import KMOutline from './KMOutline';
 import KMReview from './KMReview';
 import Ideas from './Ideas';
+import Goals from './Goals';
 import './App.css';
 
 class App extends Component {
@@ -20,6 +21,7 @@ class App extends Component {
         <ThirtyMinutes />
         <KMOutline />
         <Ideas />
+        <Goals />
       </div>
     );
   }
